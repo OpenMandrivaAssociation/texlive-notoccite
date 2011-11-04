@@ -1,3 +1,9 @@
+# revision 18129
+# category Package
+# catalog-ctan /macros/latex/contrib/notoccite
+# catalog-date 2010-05-11 12:36:30 +0200
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-notoccite
 Version:	20100511
 Release:	1
@@ -42,6 +48,7 @@ suppresses the effect.
 %{_texmfdistdir}/tex/latex/notoccite/notoccite.sty
 %doc %{_texmfdistdir}/doc/latex/notoccite/notoccite.pdf
 %doc %{_texmfdistdir}/doc/latex/notoccite/notoccite.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ suppresses the effect.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
