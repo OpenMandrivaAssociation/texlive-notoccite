@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-notoccite
 Version:	20100511
-Release:	2
+Release:	3
 Summary:	Prevent trouble from citations in table of contents, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notoccite
