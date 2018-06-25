@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-notoccite
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Prevent trouble from citations in table of contents, etc
 Group:		Publishing
