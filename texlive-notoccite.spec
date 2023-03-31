@@ -1,6 +1,6 @@
 Name:		texlive-notoccite
 Version:	18129
-Release:	1
+Release:	2
 Summary:	Prevent trouble from citations in table of contents, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notoccite
