@@ -3,7 +3,7 @@ Version:	18129
 Release:	2
 Summary:	Prevent trouble from citations in table of contents, etc
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notoccite
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/notoccite
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/notoccite.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/notoccite.doc.r%{version}.tar.xz
